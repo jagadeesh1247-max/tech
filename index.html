@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AetherMind AI — Enterprise Intelligence & Autonomous Systems</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Background Ambient Glows -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand">
+        <span class="brand-icon" aria-hidden="true">
+          <span class="core-dot"></span>
+        </span>
+        <span class="brand-text">Aether<span class="accent-text">Mind</span></span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-links">
+        <a href="#products">Products</a>
+        <a href="#features">Capabilities</a>
+        <a href="#applications">Applications</a>
+        <a href="#technology">Technology</a>
+        <a href="#team">Team</a>
+        <a href="#contact" class="btn btn-sm btn-primary">Request Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge">
+            <span class="pulse-dot"></span>
+            Aether-4 Foundation Model Now Live
+          </div>
+          <h1>
+            Architecting Autonomous <span class="gradient-text">Intelligence</span> for the Enterprise
+          </h1>
+          <p class="hero-subtitle">
+            Deploy verifiable, low-latency foundation models and multi-agent reasoning pipelines engineered for mission-critical infrastructure, scientific discovery, and global scale.
+          </p>
+          <div class="hero-actions">
+            <a href="#products" class="btn btn-primary">Explore AI Suite</a>
+            <a href="#technology" class="btn btn-secondary">Read Architecture Specs</a>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric">
+              <span class="metric-value">99.99%</span>
+              <span class="metric-label">Inference Uptime</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric">
+              <span class="metric-value">&lt;18ms</span>
+              <span class="metric-label">Edge Token Latency</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric">
+              <span class="metric-value">2M+</span>
+              <span class="metric-label">Context Window</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pure CSS Neural Core Visualization -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="neural-card glass-panel">
+            <div class="card-header">
+              <div class="window-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="terminal-title">aether-core // inference-cluster-01</span>
+            </div>
+            <div class="neural-stage">
+              <div class="orbit orbit-outer"></div>
+              <div class="orbit orbit-mid"></div>
+              <div class="orbit orbit-inner"></div>
+              <div class="neural-nucleus">
+                <div class="nucleus-core"></div>
+              </div>
+              <div class="node node-1"><span>LLM</span></div>
+              <div class="node node-2"><span>VISION</span></div>
+              <div class="node node-3"><span>AGENTS</span></div>
+              <div class="node node-4"><span>GUARD</span></div>
+            </div>
+            <div class="telemetry-bar">
+              <div class="telemetry-item">
+                <span class="t-label">THROUGHPUT</span>
+                <span class="t-val">142,800 tok/s</span>
+              </div>
+              <div class="telemetry-item">
+                <span class="t-label">PRECISION</span>
+                <span class="t-val">FP8 / INT4 Quant</span>
+              </div>
+              <div class="telemetry-item">
+                <span class="t-label">STATUS</span>
+                <span class="t-val status-ok">OPTIMAL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Products Section -->
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Product Ecosystem</span>
+          <h2>Full-Stack <span class="gradient-text">AI Platforms</span></h2>
+          <p>Modular intelligence systems built to integrate seamlessly into your existing cloud or air-gapped environment.</p>
+        </div>
+
+        <div class="grid-3">
+          <!-- Product 1 -->
+          <article class="card glass-panel product-card">
+            <div class="product-tag">Foundation Model</div>
+            <div class="icon-box cyan">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3>AetherCore LLM</h3>
+            <p>
+              Our flagship mixture-of-experts reasoning model delivering frontier performance in code synthesis, mathematical proof verification, and multilingual comprehension.
+            </p>
+            <ul class="check-list">
+              <li>2-million token active context window</li>
+              <li>Native function calling & JSON schema lock</li>
+              <li>Zero data retention & SOC2 Type II certified</li>
+            </ul>
+            <a href="#contact" class="card-link">Deploy API &rarr;</a>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="card glass-panel product-card featured-product">
+            <div class="product-tag highlight">Most Popular</div>
+            <div class="icon-box violet">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="12" cy="12" r="3" />
+                <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83" />
+              </svg>
+            </div>
+            <h3>Nexus Agent Studio</h3>
+            <p>
+              Orchestrate autonomous multi-agent workflows capable of planning, executing tool chains, querying enterprise databases, and self-correcting in real time.
+            </p>
+            <ul class="check-list">
+              <li>Deterministic human-in-the-loop guardrails</li>
+              <li>200+ native ERP, CRM & SQL connectors</li>
+              <li>Visual execution trace & replay debugging</li>
+            </ul>
+            <a href="#contact" class="card-link">Launch Studio &rarr;</a>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="card glass-panel product-card">
+            <div class="product-tag">Multimodal Edge</div>
+            <div class="icon-box emerald">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+            </div>
+            <h3>Spectra Vision Engine</h3>
+            <p>
+              Ultra-compact spatial intelligence and real-time video understanding engineered to run directly on industrial robotics, medical scanners, and edge GPUs.
+            </p>
+            <ul class="check-list">
+              <li>120 FPS sub-millimeter anomaly detection</li>
+              <li>3D point-cloud & LiDAR sensor fusion</li>
+              <li>Quantized 3B & 8B on-device checkpoints</li>
+            </ul>
+            <a href="#contact" class="card-link">Explore SDK &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Features Section -->
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Platform Capabilities</span>
+          <h2>Engineered for <span class="gradient-text">Trust & Velocity</span></h2>
+          <p>Every layer of the AetherMind stack is built to eliminate hallucinations, protect proprietary IP, and maximize compute efficiency.</p>
+        </div>
+
+        <div class="grid-3 features-grid">
+          <div class="feature-item glass-panel">
+            <span class="feature-num">01</span>
+            <h3>Cryptographic Provenance</h3>
+            <p>Every generated claim is anchored to source documents with verifiable citation hashes and real-time confidence scoring.</p>
+          </div>
+          <div class="feature-item glass-panel">
+            <span class="feature-num">02</span>
+            <h3>Private VPC & Air-Gap</h3>
+            <p>Run full model weights inside your own AWS, GCP, Azure, or on-premise bare-metal clusters with zero external telemetry.</p>
+          </div>
+          <div class="feature-item glass-panel">
+            <span class="feature-num">03</span>
+            <h3>Adaptive Speculative Decoding</h3>
+            <p>Proprietary draft-model verification accelerates token generation by 3.4x without sacrificing output accuracy.</p>
+          </div>
+          <div class="feature-item glass-panel">
+            <span class="feature-num">04</span>
+            <h3>Continuous LoRA Fine-Tuning</h3>
+            <p>Adapt foundation weights to proprietary domain terminology in minutes using low-rank adapters and synthetic data curation.</p>
+          </div>
+          <div class="feature-item glass-panel">
+            <span class="feature-num">05</span>
+            <h3>Constitutional Guardrails</h3>
+            <p>Programmable policy engines enforce PII redaction, prompt-injection immunity, and regulatory compliance at the token level.</p>
+          </div>
+          <div class="feature-item glass-panel">
+            <span class="feature-num">06</span>
+            <h3>Hybrid RAG Memory</h3>
+            <p>Unified dense vector and knowledge-graph retrieval indexes billions of unstructured records with millisecond recall.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industry Applications Section -->
+    <section id="applications" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Real-World Impact</span>
+          <h2>Transforming <span class="gradient-text">Global Industries</span></h2>
+          <p>Proven production deployments solving high-stakes operational challenges across regulated sectors.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="app-card glass-panel">
+            <div class="app-header">
+              <span class="app-sector">Biotech & Healthcare</span>
+              <span class="app-stat">-64% Discovery Cycle</span>
+            </div>
+            <h3>Generative Molecular & Clinical Synthesis</h3>
+            <p>Accelerate protein-ligand binding simulations, automate clinical trial cohort matching, and synthesize longitudinal patient histories with HIPAA-compliant precision.</p>
+          </div>
+
+          <div class="app-card glass-panel">
+            <div class="app-header">
+              <span class="app-sector">Quantitative Finance</span>
+              <span class="app-stat">14ms Risk Audit</span>
+            </div>
+            <h3>Autonomous Algorithmic Risk & Compliance</h3>
+            <p>Continuously parse global regulatory filings, simulate macroeconomic stress scenarios, and detect anomalous cross-border liquidity patterns in real time.</p>
+          </div>
+
+          <div class="app-card glass-panel">
+            <div class="app-header">
+              <span class="app-sector">Advanced Manufacturing</span>
+              <span class="app-stat">99.4% Defect Recall</span>
+            </div>
+            <h3>Self-Healing Supply Chains & Robotics</h3>
+            <p>Combine Spectra Vision inspection with predictive telemetry agents to prevent assembly line downtime and dynamically reroute global logistics.</p>
+          </div>
+
+          <div class="app-card glass-panel">
+            <div class="app-header">
+              <span class="app-sector">Software Engineering</span>
+              <span class="app-stat">4.2x PR Velocity</span>
+            </div>
+            <h3>Autonomous Codebase Modernization</h3>
+            <p>Migrate legacy monoliths, generate formal unit test suites, and remediate zero-day vulnerabilities across multi-million-line repositories automatically.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technology Stack & Architecture Section -->
+    <section id="technology" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Core Architecture</span>
+          <h2>Inside the <span class="gradient-text">Aether-4 Stack</span></h2>
+          <p>A vertically integrated intelligence pipeline designed from custom CUDA kernels up to declarative agent orchestration.</p>
+        </div>
+
+        <!-- Visual CSS Pipeline Diagram -->
+        <div class="pipeline-wrapper glass-panel">
+          <div class="pipeline-step">
+            <div class="step-badge">Layer 01</div>
+            <h4>Multimodal Ingestion</h4>
+            <p>Tokenizes text, code, CAD, audio, and video streams into a unified latent representation.</p>
+          </div>
+          <div class="pipeline-arrow" aria-hidden="true">&rarr;</div>
+          <div class="pipeline-step">
+            <div class="step-badge">Layer 02</div>
+            <h4>Sparse MoE Routing</h4>
+            <p>Activates only 38B of 480B total parameters per token for frontier reasoning at fraction-cost.</p>
+          </div>
+          <div class="pipeline-arrow" aria-hidden="true">&rarr;</div>
+          <div class="pipeline-step">
+            <div class="step-badge">Layer 03</div>
+            <h4>Symbolic Verifier</h4>
+            <p>Cross-checks logic trees, code execution, and math proofs prior to token emission.</p>
+          </div>
+          <div class="pipeline-arrow" aria-hidden="true">&rarr;</div>
+          <div class="pipeline-step">
+            <div class="step-badge">Layer 04</div>
+            <h4>Zero-Trust Execution</h4>
+            <p>Sandboxed tool invocation with granular RBAC permissions and immutable audit logs.</p>
+          </div>
+        </div>
+
+        <!-- Technical Benchmarks Bar -->
+        <div class="benchmarks-grid">
+          <div class="bench-card glass-panel">
+            <div class="bench-top">
+              <span>SWE-Bench Verified (Autonomous Coding)</span>
+              <strong>78.4%</strong>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" style="width: 78.4%;"></div>
+            </div>
+          </div>
+          <div class="bench-card glass-panel">
+            <div class="bench-top">
+              <span>GPQA Diamond (PhD-Level Science)</span>
+              <strong>84.2%</strong>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" style="width: 84.2%;"></div>
+            </div>
+          </div>
+          <div class="bench-card glass-panel">
+            <div class="bench-top">
+              <span>MATH-500 Symbolic Reasoning</span>
+              <strong>96.8%</strong>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" style="width: 96.8%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership & Research Team Section -->
+    <section id="team" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Leadership & Research</span>
+          <h2>Built by <span class="gradient-text">AI Pioneers</span></h2>
+          <p>Our researchers and systems architects hail from the world's leading distributed computing and machine learning laboratories.</p>
+        </div>
+
+        <div class="grid-4">
+          <div class="team-card glass-panel">
+            <div class="avatar avatar-1"><span>EV</span></div>
+            <h3>Dr. Elena Vance</h3>
+            <span class="role">Co-Founder & CEO</span>
+            <p>Former Principal Research Scientist in sparse neural scaling and formal verification systems.</p>
+          </div>
+
+          <div class="team-card glass-panel">
+            <div class="avatar avatar-2"><span>MC</span></div>
+            <h3>Marcus Chen</h3>
+            <span class="role">Co-Founder & CTO</span>
+            <p>Architect of distributed GPU inference engines and low-latency kernel optimization frameworks.</p>
+          </div>
+
+          <div class="team-card glass-panel">
+            <div class="avatar avatar-3"><span>AP</span></div>
+            <h3>Dr. Ananya Patel</h3>
+            <span class="role">VP of AI Safety & Alignment</span>
+            <p>Pioneer in mechanistic interpretability, constitutional guardrails, and adversarial robustness.</p>
+          </div>
+
+          <div class="team-card glass-panel">
+            <div class="avatar avatar-4"><span>JK</span></div>
+            <h3>Julian Kael</h3>
+            <span class="role">Head of Autonomous Agents</span>
+            <p>Leads multi-agent planning, reinforcement learning from execution feedback, and enterprise tooling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="contact-wrapper glass-panel">
+          <div class="contact-info">
+            <span class="section-eyebrow">Get Started</span>
+            <h2>Deploy <span class="gradient-text">AetherMind</span> in Your Stack</h2>
+            <p>
+              Connect with our solutions engineering team to schedule a custom architecture briefing, request sandbox API credentials, or discuss private VPC licensing.
+            </p>
+
+            <div class="contact-details">
+              <div class="detail-item">
+                <strong>Enterprise Inquiries</strong>
+                <span>enterprise@aethermind.ai</span>
+              </div>
+              <div class="detail-item">
+                <strong>Global Headquarters</strong>
+                <span>548 Market St, Suite 41200, San Francisco, CA</span>
+              </div>
+              <div class="detail-item">
+                <strong>Research Labs</strong>
+                <span>Zurich &bull; Bengaluru &bull; London</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#contact-submitted" method="get">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="name" placeholder="Ada Lovelace" required />
+              </div>
+              <div class="form-group">
+                <label for="work-email">Work Email</label>
+                <input type="email" id="work-email" name="email" placeholder="ada@enterprise.io" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="company">Company / Organization</label>
+                <input type="text" id="company" name="company" placeholder="Analytical Engines Inc." required />
+              </div>
+              <div class="form-group">
+                <label for="interest">Primary Interest</label>
+                <select id="interest" name="interest">
+                  <option value="llm">AetherCore LLM API</option>
+                  <option value="agents">Nexus Agent Studio</option>
+                  <option value="vision">Spectra Vision Edge SDK</option>
+                  <option value="vpc">Private VPC / On-Premise Cluster</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Project Scope & Compute Requirements</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your use case, latency targets, or data security requirements..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Schedule Architecture Briefing</button>
+
+            <div id="contact-submitted" class="form-confirmation">
+              Thank you! Your briefing request has been logged. An AetherMind Solutions Architect will respond within 4 business hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="brand">
+          <span class="brand-icon" aria-hidden="true"><span class="core-dot"></span></span>
+          <span class="brand-text">Aether<span class="accent-text">Mind</span></span>
+        </a>
+        <p>Advancing safe, verifiable, and high-throughput artificial intelligence for humanity's most critical systems.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Platform</h4>
+        <a href="#products">AetherCore LLM</a>
+        <a href="#products">Nexus Agent Studio</a>
+        <a href="#products">Spectra Vision</a>
+        <a href="#technology">Model Benchmarks</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>Company</h4>
+        <a href="#applications">Case Studies</a>
+        <a href="#team">Research Team</a>
+        <a href="#features">Security & Compliance</a>
+        <a href="#contact">Contact Sales</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>Governance</h4>
+        <a href="#features">SOC2 Type II</a>
+        <a href="#features">ISO 42001 AI Mgmt</a>
+        <a href="#features">Safety Charter</a>
+        <a href="#contact">Status: 99.99% Operational</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 AetherMind Technologies Inc. All rights reserved.</p>
+      <p class="built-with">Crafted with Pure Semantic HTML5 & Modern CSS3</p>
+    </div>
+  </footer>
+</body>
+</html>
